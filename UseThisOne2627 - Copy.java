@@ -72,7 +72,7 @@ public class UseThisOne2627 extends OpMode {
         intake2.setPower(intake2Power);
         outtake.setPower(outtakePower);
 
-        if (gamepad1.right_bumper && !gamepad1.left_bumper) {
+        if (gamepad1.left_bumper) {
             driveFieldRelative(-gamepad1.left_stick_y, gamepad1.left_stick_x, gamepad1.right_stick_x);
         } else {
             drive(-gamepad1.left_stick_y, gamepad1.left_stick_x, gamepad1.right_stick_x);
